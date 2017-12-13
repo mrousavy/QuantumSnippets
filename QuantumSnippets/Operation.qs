@@ -7,7 +7,9 @@
     {
         body
         {
-            
+			for (index in 0 .. 10) {	// Iterate 10 times
+				//set results[index] = Measure([PauliX], [qubits[index]]);
+			}
         }
     }
 }
